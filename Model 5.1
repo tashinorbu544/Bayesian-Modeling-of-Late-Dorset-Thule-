@@ -1,0 +1,403 @@
+Plot()
+ {
+  Outlier_Model("General",T(5),U(0,4),"t");
+  Outlier_Model("Wood Charcoal",Exp(1,-10,0),U(0,3),"t");
+  Curve("IntCal20","intcal20.14c");
+  Curve("=IntCal20");
+  Sequence()
+  {
+   Boundary ("earlier Dorset Qaiqsut start");
+   Phase("Qaiqsut earlier Dorset ")
+   {
+    R_Date("GrM-38674", 1686, 25)
+    {
+     Outlier("General",0.05);
+    };
+    R_Date("GrM-38673", 1672, 23)
+    {
+     Outlier("General",0.05);
+    };
+    R_Date("GrM-38671", 1627, 24)
+    {
+     Outlier("General",0.05);
+    };
+    Combine("GrM-38686&GrM-38672")
+    {
+     R_Date("GrM-38686",1635,40)
+     {
+      Outlier("General",0.05);
+     };
+     R_Date("GrM-38672",1589,15)
+     {
+      Outlier("General",0.05);
+     };
+    };
+   };
+   Boundary("Qaiqsut early Dorset end");
+  };
+  Sequence()
+  {
+   Boundary("late Dorset start");
+   Phase("Late Dorset")
+   {
+    Sequence()
+    {
+     Boundary("Avvajja Dorset start");
+     Phase("Avvajja Dorset")
+     {
+      R_Date("GrM-19003", 965, 21)
+      {
+       Outlier("General",0.05);
+      };
+      R_Date("GrM-19002", 955, 21)
+      {
+       Outlier("General",0.05);
+      };
+     };
+     Boundary("Avvajja Dorset end");
+    };
+    Sequence()
+    {
+     Boundary("Alarniq Dorset start");
+     Phase("Alarniq Dorset")
+     {
+      R_Date("UCIAMS-196092", 1035, 20)
+      {
+       Outlier("General",0.05);
+      };
+      R_Date("UCIAMS-251110", 945, 15)
+      {
+       Outlier("General",0.05);
+      };
+      R_Date("UCIAMS-53033", 905, 15)
+      {
+       Outlier("General",0.05);
+      };
+      R_Date("UCIAMS-251113", 915, 20)
+      {
+       Outlier("General",0.05);
+      };
+      R_Date("UCIAMS-196087", 1005, 20)
+      {
+       Outlier("General",0.05);
+      };
+      R_Date("UCIAMS-267487", 955, 20)
+      {
+       Outlier("General",0.05);
+      };
+      R_Date("UCIAMS-185084", 940, 15)
+      {
+       Outlier("General",0.05);
+      };
+      R_Date("UCIAMS-189002", 1085, 15)
+      {
+       Outlier("General",0.05);
+      };
+      R_Date("UCIAMS-189004", 1085, 15)
+      {
+       Outlier("General",0.05);
+      };
+      R_Date("UCIAMS-53032", 950, 15)
+      {
+       Outlier("General",0.05);
+      };
+      R_Date("UCIAMS-196090", 1000, 20)
+      {
+       Outlier("General",0.05);
+      };
+      R_Date("UCIAMS-196091", 965, 15)
+      {
+       Outlier("General",0.05);
+      };
+      R_Date("UCIAMS-251117", 945, 15)
+      {
+       Outlier("General",0.05);
+      };
+      R_Date("UCIAMS-251116", 700, 15)
+      {
+       Outlier("General",0.05);
+      };
+     };
+     Boundary("Alarniq Dorset end");
+    };
+    Sequence()
+    {
+     Boundary("Pingiqqalik Dorset start");
+     Phase("Pingiqqalik Dorset")
+     {
+      Combine("UCIAMS-129057&UCIAMS-129064")
+      {
+       R_Date("UCIAMS-129057", 940, 15)
+       {
+        Outlier("General",0.05);
+       };
+       R_Date("UCIAMS-129064", 915, 20)
+       {
+        Outlier("General",0.05);
+       };
+      };
+      R_Date("UCIAMS-129051", 930, 15)
+      {
+       Outlier("General",0.05);
+      };
+      R_Date("UCIAMS-53039", 930, 15)
+      {
+       Outlier("General",0.05);
+      };
+     };
+     Boundary("Pingiqqalik Dorset end");
+    };
+    Sequence()
+    {
+     Boundary("Needle Point Dorset start");
+     Phase("Needle Point Dorset")
+     {
+      R_Date("UCIAMS-47686",1520,15)
+      {
+       Outlier("General",0.05);
+      };
+      R_Date("UCIAMS-44009", 1275, 15)
+      {
+       Outlier("General",0.05);
+      };
+      R_Date("UCIAMS-47685", 1225, 15)
+      {
+       Outlier("General",0.05);
+      };
+      R_Date("UCIAMS-48009", 960, 20)
+      {
+       Outlier("General",0.05);
+      };
+      R_Date("UCIAMS-42215", 950, 15)
+      {
+       Outlier("General",0.05);
+      };
+      R_Date("UCIAMS-48001", 940, 25)
+      {
+       Outlier("General",0.05);
+      };
+      R_Date("UCIAMS-48000", 970, 25)
+      {
+       Outlier("General",0.05);
+      };
+      R_Date("UCIAMS-42218", 975, 15)
+      {
+       Outlier("General",0.05);
+      };
+      R_Date("UCIAMS-44012", 945, 20)
+      {
+       Outlier("General",0.05);
+      };
+      R_Date("UCIAMS-44011", 840, 20)
+      {
+       Outlier("General",0.05);
+      };
+      R_Date("UCIAMS-42416", 640, 20)
+      {
+       Outlier("General",0.05);
+      };
+      R_Date("UCIAMS-44010", 605, 25)
+      {
+       Outlier("General",0.05);
+      };
+      R_Date("UCIAMS-42217", 575, 15)
+      {
+       Outlier("General",0.05);
+      };
+      R_Date("UCIAMS-42216", 605, 15)
+      {
+       Outlier("General",0.05);
+      };
+     };
+     Boundary("Needle Point Dorset end");
+    };
+   };
+   Boundary ("Dorset end")
+   {
+    Start("Start Dorset end");
+    Transition("period of Dorset end");
+    End("End Dorset end");
+   };
+   Boundary ("Gap")
+   {
+    Start("Start Gap");
+    Transition("period of Gap");
+    End("End Gap");
+   };
+   After(R_Date("Earliest_Alaska_Thule_migration", 1000, 0));
+   Boundary ("Thule start")
+   {
+    Start("Start Thule start");
+    Transition("period of Thule start");
+    End("End Thule start");
+   };
+   Phase("Thule")
+   {
+    Sequence()
+    {
+     Boundary("Uglit Thule start");
+     Phase("Uglit Thule")
+     {
+      Sequence()
+      {
+       R_Date("GrM-24986", 428, 22)
+       {
+        Outlier("General",0.05);
+       };
+       R_Date("GrM-24987", 329, 22)
+       {
+        Outlier("General",0.05);
+       };
+       R_Date("GrM-24990", 370, 22)
+       {
+        Outlier("General",0.05);
+       };
+      };
+      R_Date("GrM-24992", 369, 22)
+      {
+       Outlier("General",0.05);
+      };
+      Sequence()
+      {
+       R_Date("GrM-24988", 359, 22)
+       {
+        Outlier("General",0.05);
+       };
+       R_Date("GrM-24989", 321, 22)
+       {
+        Outlier("General",0.05);
+       };
+      };
+      R_Date("GrM-24991", 271, 21)
+      {
+       Outlier("General",0.05);
+      };
+     };
+     Boundary("Uglit Thule end");
+    };
+    Sequence()
+    {
+     Boundary("Pingiqqalik Thule start");
+     Phase("Pingiqqalik Thule")
+     {
+      R_Date("UCIAMS-129046", 670, 15)
+      {
+       Outlier("General",0.05);
+      };
+      Combine("UCIAMS-129045&UCIAMS-129061")
+      {
+       R_Date("UCIAMS-129045", 665, 15)
+       {
+        Outlier("General",0.05);
+       };
+       R_Date("UCIAMS-129061", 630, 15)
+       {
+        Outlier("General",0.05);
+       };
+      };
+      R_Date("UCIAMS-129047", 625, 20)
+      {
+       Outlier("General",0.05);
+      };
+      R_Date("UCIAMS-129052", 610, 15)
+      {
+       Outlier("General",0.05);
+      };
+      R_Date("UCIAMS-129048", 565, 15)
+      {
+       Outlier("General",0.05);
+      };
+      Combine("UCIAMS-129049&UCIAMS-129062")
+      {
+       R_Date("UCIAMS-129049", 550, 15)
+       {
+        Outlier("General",0.05);
+       };
+       R_Date("UCIAMS-129062", 530, 15)
+       {
+        Outlier("General",0.05);
+       };
+      };
+      R_Date("UCIAMS-129050", 400, 15)
+      {
+       Outlier("General",0.05);
+      };
+      R_Date("UCIAMS-129055", 555, 15)
+      {
+       Outlier("General",0.05);
+      };
+      R_Date("UCIAMS-129056", 395, 15)
+      {
+       Outlier("General",0.05);
+      };
+      R_Date("UCIAMS-129054", 385, 15)
+      {
+       Outlier("General",0.05);
+      };
+      Combine("UCIAMS-129053&UCIAMS-129063")
+      {
+       R_Date("UCIAMS-129053", 335, 15)
+       {
+        Outlier("General",0.05);
+       };
+       R_Date("UCIAMS-129063", 340, 15)
+       {
+        Outlier("General",0.05);
+       };
+      };
+      R_Date("UCIAMS-53040", 115, 15)
+      {
+       Outlier("General",0.05);
+      };
+     };
+     Boundary("Pingiqqalik Thule end");
+    };
+    Sequence()
+    {
+     Boundary("Alarniq Thule start");
+     Phase("Alarniq Thule")
+     {
+      R_Date("UCIAMS-53035", 260, 15)
+      {
+       Outlier("General",0.05);
+      };
+      R_Date("UCIAMS-53036", 160, 15)
+      {
+       Outlier("General",0.05);
+      };
+      R_Date("UCIAMS-53037", 120, 15)
+      {
+       Outlier("General",0.05);
+      };
+     };
+     Boundary("Alarniq Thule end");
+    };
+    Sequence()
+    {
+     Boundary("Kapuiviit /Qaiqsut Thule start");
+     Phase("Kapuiviit /Qaiqsut Thule")
+     {
+      R_Date("K-1079a", 660, 100)
+      {
+       Outlier("General",0.05);
+      };
+      R_Date("K-504", 600, 150)
+      {
+       Outlier("General",0.05);
+      };
+      R_Date("GSC-6861", 340, 70)
+      {
+       Outlier("Wood Charcoal",1);
+      };
+      R_Date("AA-62362", 203, 51)
+      {
+       Outlier("General",0.05);
+      };
+     };
+     Boundary("Kapuiviit /Qaiqsut Thule end");
+    };
+   };
+   Boundary ("Thule end");
+  };
+  Difference("Overlap","Thule start","Dorset end");
+ };
